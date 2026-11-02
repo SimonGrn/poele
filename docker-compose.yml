@@ -1,0 +1,13 @@
+services:
+  poele:
+    image: php:8.3-apache
+    ports:
+      - "8088:80"
+    environment:
+      POELE_DB: /data/poele.sqlite
+    volumes:
+      - ./index.php:/var/www/html/index.php:ro
+      - ./lib.php:/var/www/html/lib.php:ro
+      - ./assets:/var/www/html/assets:ro
+      - ./data:/data
+    restart: unless-stopped
