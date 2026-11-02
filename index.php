@@ -54,6 +54,11 @@ function date_fr(string $date): string
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Suivi pellets</title>
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+    <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="assets/icons/manifest.webmanifest">
+    <meta name="theme-color" content="#c2561a">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
